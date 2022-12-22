@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82e2c124.css",
+    "main.js": "/static/js/main.056bfb9b.js",
+    "static/js/787.679df350.chunk.js": "/static/js/787.679df350.chunk.js",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.3a0917345468c959207a.ttf",
+    "static/media/Rowdies-Light.ttf": "/static/media/Rowdies-Light.97fd181336cb2a8b2b6e.ttf",
+    "static/media/ASpot_Register.jpg": "/static/media/ASpot_Register.3ff36f92ee0d18c04925.jpg",
+    "static/media/register-14.png": "/static/media/register-14.d689ff285eb4688e2efd.png",
+    "index.html": "/index.html",
+    "main.82e2c124.css.map": "/static/css/main.82e2c124.css.map",
+    "main.056bfb9b.js.map": "/static/js/main.056bfb9b.js.map",
+    "787.679df350.chunk.js.map": "/static/js/787.679df350.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e2c124.css",
+    "static/js/main.056bfb9b.js"
+  ]
+}

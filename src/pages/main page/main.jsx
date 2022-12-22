@@ -30,9 +30,7 @@ const MainPage = () => {
               color: "red",
               fontFamily: "Rowdies",
             }}
-          >
-            Fill your information
-          </Typography>
+          ></Typography>
         </Box>
         <Box
           sx={{
