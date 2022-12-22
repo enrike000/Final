@@ -4,8 +4,8 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import Link from "@mui/material/Link";
-import Stars from "./img/stars.png";
-import Rocketman from "./img/rocketman.png";
+import Stars from "./img/ASpot_Register.jpg";
+import registr from "./img/register-14.png";
 const stars = {
   paperContainer: {
     backgroundImage: `url(${Stars})`,
@@ -27,11 +27,11 @@ const MainPage = () => {
             sx={{
               ml: "486px",
               mt: "175px",
-              color: "#FE3B1F",
+              color: "red",
               fontFamily: "Rowdies",
             }}
           >
-            Register
+            Fill your information
           </Typography>
         </Box>
         <Box
@@ -46,31 +46,32 @@ const MainPage = () => {
               onClick={Clear}
               variant="contained"
               sx={{
-                bgcolor: "#FE3B1F",
+                bgcolor: "green",
                 "&:hover": {
-                  background: "#FE3B1F",
+                  background: "black",
                 },
                 borderRadius: 7,
                 fontFamily: "Montserrat",
                 fontSize: "17px",
               }}
             >
-              Start Questionnaire
+              Enter your information
             </Button>
           </Link>
         </Box>
 
         <Box sx={{ width: "17%", ml: "43.8%", height: "50$" }}>
-          <Link href="aplications" underline="always">
+          <Link href="aplications" underline="none">
             <Button
               sx={{
                 fontFamily: "Montserrat",
                 fontSize: "12px",
                 mt: "15px",
                 color: "white",
-                bgcolor: "black",
+                bgcolor: "red",
+                ml: "13px",
                 "&:hover": {
-                  background: "black",
+                  background: "blue",
                 },
               }}
               variant="text"
@@ -79,8 +80,8 @@ const MainPage = () => {
             </Button>
           </Link>
         </Box>
-        <Box sx={{ ml: "39%" }}>
-          <img className="Rocketman" src={Rocketman} alt="Rocketman" />
+        <Box sx={{ ml: "41%" }}>
+          <img className="registr" src={registr} alt="onoo" />
         </Box>
       </Stack>
     </Box>

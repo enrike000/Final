@@ -34,10 +34,14 @@ const SubmitApp = () => {
             }}
           >
             Submitted Applications
-          </Typography>
+          </Typography>{" "}
+          <br />
           {postinfo && postinfo.map((e) => <Acordion key={e.id} object={e} />)}
+          <br />
           <Typography>Go back</Typography>
-        </Box>
+          <br />
+        </Box>{" "}
+        <br />
       </Box>
     </>
   );
