@@ -19,7 +19,7 @@ const ThankPage = () => {
         <Typography
           sx={{ fontFamily: "Montserrat", fontSize: "64px", color: "#FE3B1F" }}
         >
-          Thanks for Joining 😊
+          we will definitely call you
         </Typography>
       </Box>
     </>

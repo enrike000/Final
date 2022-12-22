@@ -96,9 +96,7 @@ const PInfoLeft = () => {
           fontFamily: "Rowdies",
           mb: "20px",
         }}
-      >
-        Hey, Rocketeer, what <br /> are your coordinates?
-      </Typography>
+      ></Typography>
       <Box sx={{ ml: "140px", mb: "30px" }}>
         {multipleInput.map((item) => {
           return (

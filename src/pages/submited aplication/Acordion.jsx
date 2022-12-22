@@ -79,7 +79,7 @@ const Acordion = (props) => {
                         fontSize: "14px",
                       }}
                     >
-                      From Sairme Office
+                      batumi
                     </Typography>
                   }
                 />
@@ -95,7 +95,7 @@ const Acordion = (props) => {
                         color: "black",
                       }}
                     >
-                      Home
+                      tbilisi
                     </Typography>
                   }
                 />
@@ -107,7 +107,7 @@ const Acordion = (props) => {
                     <Typography
                       sx={{ fontFamily: "Montserrat", fontSize: "14px" }}
                     >
-                      Hybrid
+                      home
                     </Typography>
                   }
                 />

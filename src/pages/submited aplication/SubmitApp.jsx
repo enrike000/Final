@@ -33,7 +33,7 @@ const SubmitApp = () => {
               ml: "359px",
             }}
           >
-            Submitted Applications
+            Check your amazing answers
           </Typography>{" "}
           <br />
           {postinfo && postinfo.map((e) => <Acordion key={e.id} object={e} />)}
